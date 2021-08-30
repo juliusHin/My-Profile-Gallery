@@ -1,4 +1,5 @@
-// require('dotenv').config()
+require('dotenv').config()
+
 
 module.exports = {
 	siteMetadata: {
@@ -34,7 +35,7 @@ module.exports = {
 				access_token: process.env.IG_ACCESS_TOKEN,
 				instagram_id: process.env.ID_INSTAGRAM,
 				paginate: 20,
-				maxPosts: 30,
+				maxPosts: 50,
 				hashtags: true,
 			},
 		},
